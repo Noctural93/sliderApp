@@ -1,0 +1,38 @@
+.sliderCard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 240px;
+  height: 205px;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 265px;
+    height: 225px;
+  }
+}
+
+.planet-header {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  max-width: 700px;
+}
+
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 19px;
+  }
+}
